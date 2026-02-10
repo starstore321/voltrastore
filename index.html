@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Voltra Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      color:#fff;
+      text-align:center;
+      min-height:100vh;
+      overflow:hidden;
+    }
+
+    video.bg{
+      position:fixed;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      z-index:-2;
+    }
+
+    .overlay{
+      position:fixed;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      background:rgba(0,0,0,0.65);
+      z-index:-1;
+    }
+
+    .container{
+      padding:30px 15px;
+    }
+
+    .logo{
+      width:130px;
+      height:130px;
+      border-radius:50%;
+      border:3px solid #00ffcc;
+      object-fit:cover;
+      margin-bottom:15px;
+    }
+
+    h1{
+      font-size:28px;
+      color:#00ffcc;
+      text-shadow:0 0 10px #00ffcc;
+      margin-bottom:5px;
+    }
+
+    .subtitle{
+      font-size:14px;
+      color:#ccc;
+      margin-bottom:25px;
+    }
+
+    .btn{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      background:#111;
+      border:1px solid #00ffcc;
+      color:#fff;
+      text-decoration:none;
+      padding:14px;
+      margin:12px auto;
+      max-width:320px;
+      border-radius:12px;
+      font-size:15px;
+      transition:0.3s;
+    }
+
+    .btn i{
+      font-size:18px;
+      color:#00ffcc;
+    }
+
+    .btn:hover{
+      background:#00ffcc;
+      color:#000;
+      box-shadow:0 0 15px #00ffcc;
+    }
+
+    .btn:hover i{
+      color:#000;
+    }
+
+    .footer{
+      margin-top:30px;
+      font-size:12px;
+      color:#aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Video -->
+  <video class="bg" autoplay muted loop>
+    <source src="pexels-media-15440318.mp4" type="video/mp4">
+  </video>
+
+  <div class="overlay"></div>
+
+  <div class="container">
+
+    <img src="20260210_173208.jpg" class="logo" alt="Voltra Store Logo">
+
+    <h1>VOLTRA STORE</h1>
+    <div class="subtitle">JB amanah • trusted</div>
+
+    <a class="btn" href="https://www.instagram.com/real_voltrastore" target="_blank">
+      <i class="fab fa-instagram"></i> IG Voltra Store
+    </a>
+
+    <a class="btn" href="https://tiktok.com/@voltrastr_real" target="_blank">
+      <i class="fab fa-tiktok"></i> TikTok Voltra Store
+    </a>
+
+    <a class="btn" href="https://wa.me/6289525745610" target="_blank">
+      <i class="fab fa-whatsapp"></i> WhatsApp Voltra Store
+    </a>
+
+    <a class="btn" href="https://t.me/voltrastr" target="_blank">
+      <i class="fab fa-telegram"></i> Telegram Voltra Store
+    </a>
+
+    <div class="footer">
+      © JB Trusted • Selain link di atas = clone
+    </div>
+
+  </div>
+
+</body>
+</html>
